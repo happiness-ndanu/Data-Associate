@@ -29,7 +29,7 @@ library(heatmaply)
 
 here()
 #load data 
-HCWDashboard <- readRDS(here("Data Associate", "HCWs_Vaccination" ,"HCWDashboard.rds")) %>%  
+HCWDashboard <- readRDS("HCWDashboard.rds") %>%  
   clean_names()
 
 nrow(HCWDashboard)
@@ -286,7 +286,7 @@ p
 
 #read in the kenyan shapefiles
 
-subcountySHP <- read_sf(here("Data Associate", "HCWs_Vaccination", "currentshapefiles","Sub-Counties.shp"), quiet = TRUE, stringsAsFactors = FALSE,as_tibble = TRUE)
+subcountySHP <- read_sf("currentshapefiles/Sub-Counties.shp", quiet = TRUE, stringsAsFactors = FALSE,as_tibble = TRUE)
 
 #View(subcountySHP %>% st_drop_geometry())
 
