@@ -47,3 +47,11 @@ git clone https://github.com/happiness-ndanu/Health-Care-Workers-Vaccination.git
 # Set working directory and run the app
 setwd("Health-Care-Workers-Vaccination")
 shiny::runApp()
+```
+---
+## Author
+Happiness Ndanu M
+
+happiness.ndanu.m@gmail.com
+
+Data Analyst| R Developer |Health Data Enthusiast
