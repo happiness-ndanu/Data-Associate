@@ -3,8 +3,11 @@
 An interactive Shiny dashboard that presents vaccination coverage among health care workers. This app visualizes key metrics such as vaccine uptake, county-level distribution, and trends over time to support data-driven public health decisions.
 
 🔗 **Live App:** [HealthCare Workers Vaccination Dashboard](https://happinessndanu1.shinyapps.io/HCWs_Vaccination/) 
-Username- user1
-Password- pass1
+
+Username: `user1`
+Password: `pass1`
+
+![](dashboard_vaccine.png)
 
 ---
 
